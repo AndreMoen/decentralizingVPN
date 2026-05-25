@@ -1,0 +1,6 @@
+1. Husk å ha med ROOM environment varialbe enten i skjult fil eller i kommando til å kjøre
+2. Endre på /etc/tor/torrc
+	1. Sett ControlPort til aktiv
+	2. Sett CookieAuthentication til 0
+3. Last need Tor sudo apt install tor
+4. Sørg for at Tor kjører, sudo systemctl status tor
